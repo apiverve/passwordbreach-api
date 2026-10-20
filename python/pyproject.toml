@@ -1,0 +1,29 @@
+[project]
+name = "apiverve-passwordbreachchecker"
+version = "1.2.2"
+authors = [
+  { name="APIVerve", email="hello@apiverve.com" },
+]
+description = "Password Breach Checker tells you whether a password appears in the Pwned Passwords corpus of passwords exposed in data breaches. Send the password or its SHA-1 hash and get a breached flag. Paid plans add how many times it was seen and a risk level."
+keywords = ["password breach check api", "pwned passwords api", "have i been pwned password api", "breached password detection", "compromised password check"]
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    "requests>=2.25.0"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Natural Language :: English",
+]
+
+[project.urls]
+Homepage = "https://apiverve.com/marketplace/passwordbreach?utm_source=pypi&utm_medium=referral&utm_content=homepage"
+Documentation = "https://docs.apiverve.com/ref/passwordbreach?utm_source=pypi&utm_medium=referral&utm_content=docs"
+Repository = "https://github.com/apiverve/passwordbreach-api"
+Twitter = "https://twitter.com/apivervehq"
