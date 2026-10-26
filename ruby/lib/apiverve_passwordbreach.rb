@@ -4,6 +4,6 @@ require_relative "apiverve_passwordbreach/client"
 
 module APIVerve
   module Passwordbreach
-    VERSION = "1.2.2"
+    VERSION = "1.2.3"
   end
 end
